@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/timeclock"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
 
     <TextView
@@ -35,25 +35,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtLogin">
-
-        <EditText
-            android:id="@+id/inputUsername"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/edittext_background"
-            android:ems="10"
-            android:hint="Username"
-            android:drawableLeft="@drawable/baselineperson"
-            android:drawablePadding="20dp"
-            android:inputType="textPersonName"
-            android:paddingLeft="20dp"
-            android:textColorHint="#020202"
-            tools:layout_marginTop="10dp" />
 
         <EditText
             android:id="@+id/inputemail"
@@ -94,13 +75,13 @@
             tools:layout_marginTop="10dp" />
 
         <TextView
-            android:id="@+id/txtforgotpassword"
+            android:id="@+id/txtlogininstead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
             android:gravity="center_horizontal"
-            android:text="Forgot password?"
+            android:text="Register for New user "
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textStyle="bold" />

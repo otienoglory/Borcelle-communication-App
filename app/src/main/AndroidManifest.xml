@@ -12,6 +12,14 @@
         android:theme="@style/Theme.BorcelleCommunicationApp"
         tools:targetApi="31">
         <activity
+            android:name=".HomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_nav"
+            android:theme="@style/Theme.BorcelleCommunicationApp.NoActionBar" />
+        <activity
             android:name="com.example.borcellecommunicationappapp.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,8 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.borcellecommunicationapp.SignupActivity" />
-        <activity android:name="com.example.borcellecommunicationapp.LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:id="@+id/btn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mygradient"
+    android:background="@drawable/lightblue"
     tools:context=".MainActivity">
 
     <TextView
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.331"
-        app:srcCompat="@drawable/img_1"
+        app:srcCompat="@drawable/logoo"
         tools:ignore="MissingConstraints" />
 
     <LinearLayout

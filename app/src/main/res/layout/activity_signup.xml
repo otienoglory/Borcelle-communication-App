@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/timeclock"
-    tools:context=".MainActivity">
+    tools:context=".SignupActivity">
 
 
     <TextView
@@ -75,7 +75,7 @@
             tools:layout_marginTop="10dp" />
 
         <EditText
-            android:id="@+id/inputPhoneNumber"
+            android:id="@+id/inputContact"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
@@ -84,11 +84,11 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:background="@drawable/edittext_background"
-            android:ems="10"
-            android:hint="Phone Number"
-            android:inputType="textPersonName"
             android:drawableLeft="@drawable/baselinephone"
             android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Contact"
+            android:inputType="textPersonName"
             android:paddingLeft="20dp"
             android:textColorHint="#020202"
             tools:layout_marginTop="10dp" />
@@ -170,6 +170,19 @@
             android:textColorHint="#020202"
             tools:layout_marginBottom="20dp"
             tools:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtlogininstead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="Already have an account? Login instead! "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
 
         <Button
             android:id="@+id/mBtnRegister"
