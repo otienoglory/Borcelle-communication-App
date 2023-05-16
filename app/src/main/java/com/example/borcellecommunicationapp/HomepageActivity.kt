@@ -1,5 +1,6 @@
 package com.example.borcellecommunicationapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
@@ -19,6 +20,11 @@ class HomepageActivity : AppCompatActivity() {
         cardtrainingresources=findViewById(R.id.trainingresources)
         cardnewsandupdates=findViewById(R.id.newsandupdates)
         cardsocialmedia=findViewById(R.id.socialmedia)
+
+        cardtrainingresources.setOnClickListener {
+            var tembea = Intent(this@HomepageActivity,TrainingresourcesActivity::class.java)
+            startActivity(tembea)
+        }
 
     }
 }
